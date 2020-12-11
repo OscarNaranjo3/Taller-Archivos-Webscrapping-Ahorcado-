@@ -40,7 +40,7 @@ def webscrapping():
     print("PALABRAS:\n")
     for palabra in palabras:
         print(palabra, end="")
-
+    arch_palabras.close()
 def main():
     webscrapping()
 
